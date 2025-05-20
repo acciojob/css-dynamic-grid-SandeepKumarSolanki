@@ -1,12 +1,14 @@
 /*  your css code here. If applicable */
 .grid-container{
-	display : grid;
-	grid-template-columns : repeat(1,1)
+	display : flex;
+	justify-content:center;
+	flex-wrap : wrap;
+	
 	
 }
 .grid-item{
 	background-color : lightgray;
-	height : 200px;
+	height : 150px;
 	width : 200px;
 	border-radius : 5px;
 	font-size : 40px;
